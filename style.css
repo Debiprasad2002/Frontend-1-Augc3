@@ -18,3 +18,51 @@
     cursor: pointer;
     border-radius: 20px;
 }
+.Hero{
+    background-color: #FFFCF7;
+    display: flex;
+    flex: no wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 65vh;
+    width: 98%;
+    position: relative;
+    overflow: hidden;
+
+}
+.cols{
+    color:red;
+}
+.container1{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    width: 98%;
+}
+.col11{
+    flex: 2;
+    font-size: 18px;
+    line-height: 2em;
+    margin-left: 90px;
+    align-items: center;
+
+}
+.col21{
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70px;
+}
+.card-img-top{
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    
+    
+}
